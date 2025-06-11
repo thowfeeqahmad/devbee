@@ -1,5 +1,6 @@
 import React from 'react';
 import { Code2, Palette, Server, Smartphone, Brain, Shield, Database, Globe } from 'lucide-react';
+import { Link } from 'react-router-dom';
 
 const Expertise = () => {
   const technologies = [
@@ -218,12 +219,12 @@ const Expertise = () => {
           <p className="text-yellow-100 mb-8 max-w-2xl mx-auto">
             Ready to leverage our expertise for your next project? Let's discuss how we can help you succeed.
           </p>
-          <a
-            href="/contact"
+          <Link
+            to="/contact"
             className="bg-white text-yellow-600 px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors duration-200 inline-block"
           >
             Start Your Project
-          </a>
+          </Link>
         </div>
       </section>
     </div>

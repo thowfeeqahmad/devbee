@@ -4,27 +4,27 @@ import { Users, Target, Eye, Award, CheckCircle } from 'lucide-react';
 const About = () => {
   const team = [
     {
-      name: 'Alex Thompson',
+      name: 'Thowfeeq Ahmad',
       role: 'CEO & Founder',
-      image: 'https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=400',
+      image: '/pfp.jpg',
       description: 'Visionary leader with 15+ years in software development and business strategy.'
     },
     {
-      name: 'Sarah Kim',
+      name: 'Muhammad Adnan',
       role: 'CTO',
-      image: 'https://images.pexels.com/photos/3756679/pexels-photo-3756679.jpeg?auto=compress&cs=tinysrgb&w=400',
+      image: '/apfp.jpg',
       description: 'Technical expert specializing in AI, cloud architecture, and scalable systems.'
     },
     {
-      name: 'Michael Rodriguez',
+      name: 'Cody Selvan',
       role: 'Lead Developer',
-      image: 'https://images.pexels.com/photos/3785077/pexels-photo-3785077.jpeg?auto=compress&cs=tinysrgb&w=400',
+      image: '/cpfp.png',
       description: 'Full-stack developer with expertise in modern web and mobile technologies.'
     },
     {
-      name: 'Emily Chen',
+      name: 'Abuthahir',
       role: 'UX/UI Designer',
-      image: 'https://images.pexels.com/photos/3756681/pexels-photo-3756681.jpeg?auto=compress&cs=tinysrgb&w=400',
+      image: '/abpfp.png',
       description: 'Creative designer focused on user-centered design and digital experiences.'
     }
   ];

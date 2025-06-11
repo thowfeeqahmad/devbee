@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Mail, Phone, MapPin, Clock, Send } from 'lucide-react';
+import Swal from 'sweetalert2';
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -53,17 +54,22 @@ const Contact = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     const newErrors = validateForm();
-    
+
     if (Object.keys(newErrors).length > 0) {
       setErrors(newErrors);
       return;
     }
-    
+
     setIsSubmitting(true);
-    
+
     // Simulate form submission
     setTimeout(() => {
-      alert('Thank you for your message! We\'ll get back to you soon.');
+      Swal.fire({
+        icon: 'success',
+        title: 'Message Sent!',
+        text: "Thank you for your message! We'll get back to you soon.",
+        confirmButtonColor: '#f59e0b' // Tailwind yellow-500
+      });
       setFormData({ name: '', email: '', subject: '', message: '' });
       setIsSubmitting(false);
     }, 1000);
@@ -140,7 +146,7 @@ const Contact = () => {
                 <h3 className="text-lg font-semibold text-gray-900 mb-4">Find Us</h3>
                 <div className="bg-gray-200 h-64 rounded-lg flex items-center justify-center">
                   <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3168.639!2d-122.0842499!3d37.4220656!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fb24ca4c8b5b7%3A0x4e4c0e8b5b5b5b5b!2sSilicon%20Valley%2C%20CA!5e0!3m2!1sen!2sus!4v1234567890"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3912.226785585967!2d76.99094707504113!3d10.99720218920159!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba85f2e5e5e5e5e%3A0x7e7e7e7e7e7e7e7e!2sRS%20PLAZA%2C%2029A%2C%20Palakkad%20-%20Coimbatore%20Rd%2C%20near%20KJ%20Hospital%2C%20Coimbatore%2C%20Tamil%20Nadu%20641008!5e0!3m2!1sen!2sin!4v1718031234567!5m2!1sen!2sin"
                     width="100%"
                     height="100%"
                     style={{ border: 0 }}

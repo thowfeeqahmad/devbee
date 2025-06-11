@@ -82,11 +82,11 @@ const Footer = () => {
             <div className="space-y-3">
               <div className="flex items-center space-x-2">
                 <MapPin size={16} className="text-yellow-400" />
-                <span className="text-gray-300 text-sm">123 Tech Street, Silicon Valley, CA 94000</span>
+                <span className="text-gray-300 text-sm">DevBee inc , RS Plaza , Coimbatore -641048</span>
               </div>
               <div className="flex items-center space-x-2">
                 <Phone size={16} className="text-yellow-400" />
-                <span className="text-gray-300 text-sm">+1 (555) 123-4567</span>
+                <span className="text-gray-300 text-sm">+91 7418361495</span>
               </div>
               <div className="flex items-center space-x-2">
                 <Mail size={16} className="text-yellow-400" />
@@ -99,7 +99,7 @@ const Footer = () => {
         <div className="border-t border-gray-700 mt-8 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-gray-300 text-sm">
-              © 2024 DevBee Inc. All rights reserved.
+              © 2025 DevBee Inc. All rights reserved.
             </p>
             <div className="flex space-x-6 mt-4 md:mt-0">
               <Link to="/terms" className="text-gray-300 hover:text-yellow-400 text-sm transition-colors duration-200">
