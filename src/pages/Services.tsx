@@ -1,5 +1,6 @@
 import React from 'react';
 import { Code, Smartphone, Brain, Cloud, Database, Shield, Zap, Users } from 'lucide-react';
+]import { Link } from 'react-router-dom';
 
 const Services = () => {
   const services = [
@@ -144,12 +145,12 @@ const Services = () => {
           <p className="text-yellow-100 mb-8 max-w-2xl mx-auto">
             Let's discuss your requirements and see how our services can help you achieve your business goals.
           </p>
-          <a
-            href="/contact"
+          <Link
+            to="/contact"
             className="bg-white text-yellow-600 px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors duration-200 inline-block"
           >
             Get a Free Consultation
-          </a>
+          </Link>
         </div>
       </section>
     </div>
