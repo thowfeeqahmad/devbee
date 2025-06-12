@@ -6,25 +6,25 @@ const About = () => {
     {
       name: 'Thowfeeq Ahmad',
       role: 'CEO & Founder',
-      image: '/pfp.jpg',
+      image: '/devbee/pfp.jpg',
       description: 'Visionary leader with 15+ years in software development and business strategy.'
     },
     {
       name: 'Muhammad Adnan',
       role: 'CTO',
-      image: '/apfp.jpg',
+      image: '/devbee/apfp.jpg',
       description: 'Technical expert specializing in AI, cloud architecture, and scalable systems.'
     },
     {
       name: 'Cody Selvan',
       role: 'Lead Developer',
-      image: '/cpfp.png',
+      image: '/devbee/cpfp.png',
       description: 'Full-stack developer with expertise in modern web and mobile technologies.'
     },
     {
       name: 'Abuthahir',
       role: 'UX/UI Designer',
-      image: '/abpfp.png',
+      image: '/devbee/abpfp.png',
       description: 'Creative designer focused on user-centered design and digital experiences.'
     }
   ];
