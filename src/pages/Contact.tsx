@@ -102,11 +102,11 @@ const Contact = () => {
               <div className="space-y-6">
                 <div className="flex items-start space-x-4">
                   <div className="bg-yellow-100 p-3 rounded-lg">
-                    <MapPin className="w-6 h-6 text-yellow-600" />
+                    <MapPin className="w-6 h-6 text-yellow-600" /> 
                   </div>
                   <div>
                     <h3 className="text-lg font-semibold text-gray-900 mb-1">Address</h3>
-                    <p className="text-gray-600">123 Tech Street<br />Silicon Valley, CA 94000<br />United States</p>
+                    <p className="text-gray-600">29A, RS PLAZA, Palakkad - <br />Coimbatore Rd, near KJ Hospital,<br />Coimbatore, Tamil Nadu - 641008</p>
                   </div>
                 </div>
                 
@@ -116,7 +116,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <h3 className="text-lg font-semibold text-gray-900 mb-1">Phone</h3>
-                    <p className="text-gray-600">+1 (555) 123-4567</p>
+                    <p className="text-gray-600">+91 90030 95635</p>
                   </div>
                 </div>
                 
