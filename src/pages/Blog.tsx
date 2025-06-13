@@ -117,7 +117,15 @@ const Blog = () => (
             <div className="text-xs text-yellow-600 font-semibold mb-2">{post.category}</div>
             <h2 className="text-2xl font-bold text-gray-900 mb-2">{post.title}</h2>
             <p className="text-gray-600 mb-4">{post.summary}</p>
-            <div className="text-gray-400 text-xs">{post.date}</div>
+            <div className="text-gray-400 text-xs mb-4">{post.date}</div>
+            <button
+              className="flex items-center text-yellow-600 font-semibold hover:text-yellow-700 transition-colors duration-200 group"
+            >
+              Learn More
+              <span className="ml-2 transition-transform duration-200 group-hover:translate-x-1">
+                <svg xmlns='http://www.w3.org/2000/svg' className='h-4 w-4' fill='none' viewBox='0 0 24 24' stroke='currentColor'><path strokeLinecap='round' strokeLinejoin='round' strokeWidth={2} d='M17 8l4 4m0 0l-4 4m4-4H3' /></svg>
+              </span>
+            </button>
           </div>
         </div>
       ))}

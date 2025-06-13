@@ -6,7 +6,7 @@ const Expertise = () => {
     {
       category: 'Frontend',
       icon: <Code2 className="w-8 h-8 text-yellow-600" />,
-      skills: ['React']
+      skills: ['React', "HTML", 'CSS', 'JavaScript', 'Bootstrap']
     },
     {
       category: 'Backend',
@@ -16,7 +16,7 @@ const Expertise = () => {
     {
       category: 'Mobile',
       icon: <Smartphone className="w-8 h-8 text-yellow-600" />,
-      skills: [ 'Flutter']
+      skills: [ 'Flutter', "React Native"]
     },
     {
       category: 'Database',
@@ -31,7 +31,7 @@ const Expertise = () => {
     {
       category: 'Monitoring',
       icon: <Shield className="w-8 h-8 text-yellow-600" />,
-      skills: ['rafana', 'Prometheus', 'Power BI', 'SEQ', 'ELK']
+      skills: ['Grafana', 'Prometheus', 'Power BI', 'SEQ', 'ELK']
     }
   ];
 
@@ -39,32 +39,32 @@ const Expertise = () => {
     {
       name: 'Healthcare',
       description: 'EDC data platform for a UK university, deployed in Bangladesh hospitals.',
-      projects: '50+ Projects'
+      // projects: '50+ Projects'
     },
     {
       name: 'E-commerce',
       description: 'Shopify site for Sri Lanka’s leading t-shirt brand.',
-      projects: '75+ Projects'
+      // projects: '75+ Projects'
     },
     {
       name: 'Finance',
       description: 'Secure fintech applications, trading platforms, and banking solutions.',
-      projects: '40+ Projects'
+      // projects: '40+ Projects'
     },
     {
       name: 'Education',
       description: 'Moodle-integrated LMS for a UK academy.',
-      projects: '60+ Projects'
+      // projects: '60+ Projects'
     },
     {
       name: 'Logistics',
       description: 'Delivery platform used by a UK-based logistics company.',
-      projects: '35+ Projects'
+      // projects: '35+ Projects'
     },
     {
       name: 'Manufacturing',
       description: 'IoT solutions, inventory management, and production optimization systems.',
-      projects: '25+ Projects'
+      // projects: '25+ Projects'
     }
   ];
 

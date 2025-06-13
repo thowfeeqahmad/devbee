@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Facebook, Twitter, Linkedin, Instagram, Mail, Phone, MapPin } from 'lucide-react';
+import { Linkedin, Github, Mail, Phone, MapPin } from 'lucide-react';
+import { SiWhatsapp } from 'react-icons/si';
 
 const Footer = () => {
   return (
@@ -17,17 +18,14 @@ const Footer = () => {
               Innovative software solutions for modern businesses. We transform ideas into powerful digital experiences.
             </p>
             <div className="flex space-x-4">
-              <a href="#" className="text-gray-300 hover:text-yellow-400 transition-colors duration-200">
-                <Facebook size={20} />
+              <a href="https://wa.me/919003095635" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-yellow-400 transition-colors duration-200">
+                <SiWhatsapp size={20} />
               </a>
-              <a href="#" className="text-gray-300 hover:text-yellow-400 transition-colors duration-200">
-                <Twitter size={20} />
+              <a href="https://github.com/devbee-engineering" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-yellow-400 transition-colors duration-200">
+                <Github size={20} />
               </a>
-              <a href="#" className="text-gray-300 hover:text-yellow-400 transition-colors duration-200">
+              <a href="https://www.linkedin.com/company/devbeeinc/people/?viewAsMember=true" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-yellow-400 transition-colors duration-200">
                 <Linkedin size={20} />
-              </a>
-              <a href="#" className="text-gray-300 hover:text-yellow-400 transition-colors duration-200">
-                <Instagram size={20} />
               </a>
             </div>
           </div>
@@ -82,7 +80,7 @@ const Footer = () => {
             <div className="space-y-3">
               <div className="flex items-center space-x-2">
                 <MapPin size={16} className="text-yellow-400" />
-                <span className="text-gray-300 text-sm">DevBee inc , RS Plaza , Coimbatore -641048</span>
+                <span className="text-gray-300 text-sm">DevBee Inc., Coimbatore , India</span>
               </div>
               <div className="flex items-center space-x-2">
                 <Phone size={16} className="text-yellow-400" />
@@ -90,7 +88,7 @@ const Footer = () => {
               </div>
               <div className="flex items-center space-x-2">
                 <Mail size={16} className="text-yellow-400" />
-                <span className="text-gray-300 text-sm">info@devbee.com</span>
+                <span className="text-gray-300 text-sm">support@dev-bee.com</span>
               </div>
             </div>
           </div>

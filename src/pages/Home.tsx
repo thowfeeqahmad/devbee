@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { ArrowRight, Code, Smartphone, Brain, Cloud, Users, Star } from 'lucide-react';
+import { ArrowRight, Code, Smartphone, Cloud, Package } from 'lucide-react';
 
 const Home = () => {
   const services = [
@@ -15,9 +15,9 @@ const Home = () => {
       description: 'Native and cross-platform mobile applications for iOS and Android.'
     },
     {
-      icon: <Brain className="w-8 h-8 text-yellow-600" />,
-      title: 'AI Solutions',
-      description: 'Intelligent automation and machine learning implementations.'
+      icon: <Package className="w-8 h-8 text-yellow-600" />, // Product Development icon
+      title: 'Product Development',
+      description: 'Got a vision? We can build it. (*Some product work is confidential due to NDAs.*)'
     },
     {
       icon: <Cloud className="w-8 h-8 text-yellow-600" />,
@@ -150,14 +150,24 @@ const Home = () => {
               {/* Marquee logos - duplicate for seamless loop */}
               {[...Array(2)].map((_, i) => (
                 <React.Fragment key={i}>
-                  
-                  <img src="STREET-82.jpg" alt="IBM" className="marquee-logo" />
-                  <img src="islm.png" alt="Google" className="marquee-logo" />
-                  <img src="natually.avif" alt="Netflix" className="marquee-logo" />
-                  <img src="lck-logo-1.webp" alt="Spotify" className="marquee-logo" />
-                  <img src="aamer.png" alt="WhatsApp" className="marquee-logo" />
-                  <img src="STREET-82.jpg" alt="Facebook" className="marquee-logo" />
-                  
+                  <div className="marquee-logo-card">
+                    <img src="STREET-82.png" alt="IBM" className="marquee-logo" />
+                  </div>
+                  <div className="marquee-logo-card">
+                    <img src="islm.png" alt="Google" className="marquee-logo" />
+                  </div>
+                  <div className="marquee-logo-card">
+                    <img src="natually.png" alt="Netflix" className="marquee-logo" />
+                  </div>
+                  <div className="marquee-logo-card">
+                    <img src="lck-logo-1.png" alt="Spotify" className="marquee-logo" />
+                  </div>
+                  <div className="marquee-logo-card">
+                    <img src="aamer.png" alt="WhatsApp" className="marquee-logo" />
+                  </div>
+                  <div className="marquee-logo-card">
+                    <img src="NIHR.png" alt="Facebook" className="marquee-logo" />
+                  </div>
                 </React.Fragment>
               ))}
             </div>

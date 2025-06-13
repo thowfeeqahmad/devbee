@@ -106,7 +106,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <h3 className="text-lg font-semibold text-gray-900 mb-1">Address</h3>
-                    <p className="text-gray-600">29A, RS PLAZA, Palakkad - <br />Coimbatore Rd, near KJ Hospital,<br />Coimbatore, Tamil Nadu - 641008</p>
+                    <p className="text-gray-600">  DevBee Inc., <br />29A RS PLAZA Kuniamuthur,<br /> Coimbatore -  641008</p>
                   </div>
                 </div>
                 
@@ -126,7 +126,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <h3 className="text-lg font-semibold text-gray-900 mb-1">Email</h3>
-                    <p className="text-gray-600">info@devbee.com</p>
+                    <p className="text-gray-600">support@dev-bee.com</p>
                   </div>
                 </div>
                 

@@ -9,7 +9,8 @@ import Expertise from './pages/Expertise';
 import Contact from './pages/Contact';
 import Terms from './pages/Terms';
 import Privacy from './pages/Privacy';
-import Blog from './pages/Blog'; // <-- ✅ Import your Blog component
+import BlogList from './pages/BlogList';
+import BlogDetail from './pages/BlogDetail';
 
 function App() {
   return (
@@ -25,7 +26,8 @@ function App() {
             <Route path="/contact" element={<Contact />} />
             <Route path="/terms" element={<Terms />} />
             <Route path="/privacy" element={<Privacy />} />
-            <Route path="/blog" element={<Blog />} /> {/* <-- ✅ Added blog route */}
+            <Route path="/blog" element={<BlogList />} />
+            <Route path="/blog/:slug" element={<BlogDetail />} />
           </Routes>
         </main>
         <Footer />
