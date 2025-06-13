@@ -10,8 +10,9 @@ const Navbar = () => {
     { path: '/', label: 'Home' },
     { path: '/about', label: 'About Us' },
     { path: '/services', label: 'Services' },
+    { path: '/blog', label: 'Blogs' },
     { path: '/expertise', label: 'Our Expertise' },
-    { path: '/contact', label: 'Contact' },
+    { path: '/contact', label: 'Contact' }
   ];
 
   const isActive = (path: string) => location.pathname === path;
@@ -22,7 +23,7 @@ const Navbar = () => {
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-2">
-            <img src="/Devbee.png" alt="DevBee Inc." className="h-10 w-auto" />
+            <img src="/devbee/Devbee.png" alt="DevBee Inc." className="h-10 w-auto" />
             
           </Link>
 

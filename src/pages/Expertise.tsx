@@ -1,5 +1,4 @@
-import React from 'react';
-import { Code2, Palette, Server, Smartphone, Brain, Shield, Database, Globe } from 'lucide-react';
+import { Code2, Palette, Server, Smartphone, Shield, Database, Globe } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
 const Expertise = () => {
@@ -7,44 +6,44 @@ const Expertise = () => {
     {
       category: 'Frontend',
       icon: <Code2 className="w-8 h-8 text-yellow-600" />,
-      skills: ['React', 'Vue.js', 'Angular', 'TypeScript', 'Next.js', 'Tailwind CSS', 'SASS/SCSS', 'Webpack']
+      skills: ['React']
     },
     {
       category: 'Backend',
       icon: <Server className="w-8 h-8 text-yellow-600" />,
-      skills: ['Node.js', 'Python', 'Java', 'C#', 'PHP', 'Ruby', 'Go', 'Express.js']
+      skills: ['Node.js', 'Python', 'Java', 'C#', 'PHP',  'Go', '.NET']
     },
     {
       category: 'Mobile',
       icon: <Smartphone className="w-8 h-8 text-yellow-600" />,
-      skills: ['React Native', 'Flutter', 'Swift', 'Kotlin', 'Xamarin', 'Ionic', 'PhoneGap', 'Unity']
+      skills: [ 'Flutter']
     },
     {
       category: 'Database',
       icon: <Database className="w-8 h-8 text-yellow-600" />,
-      skills: ['PostgreSQL', 'MySQL', 'MongoDB', 'Redis', 'Elasticsearch', 'Firebase', 'DynamoDB', 'Oracle']
+      skills: ['NoSQL', 'MySQL', 'MongoDB', 'Firestore']
     },
     {
-      category: 'Cloud & DevOps',
+      category: 'DevOps',
       icon: <Globe className="w-8 h-8 text-yellow-600" />,
-      skills: ['AWS', 'Azure', 'Google Cloud', 'Docker', 'Kubernetes', 'Jenkins', 'GitLab CI', 'Terraform']
+      skills: ['Docker', 'Kubernetes', 'GitLab CI/CD', 'Azure DevOps', 'Kubernetes', 'Jenkins', 'GitLab CI/CD', 'Github Actions']
     },
     {
-      category: 'AI & ML',
-      icon: <Brain className="w-8 h-8 text-yellow-600" />,
-      skills: ['TensorFlow', 'PyTorch', 'Scikit-learn', 'OpenAI', 'Computer Vision', 'NLP', 'Deep Learning', 'MLOps']
+      category: 'Monitoring',
+      icon: <Shield className="w-8 h-8 text-yellow-600" />,
+      skills: ['rafana', 'Prometheus', 'Power BI', 'SEQ', 'ELK']
     }
   ];
 
   const industries = [
     {
       name: 'Healthcare',
-      description: 'HIPAA-compliant solutions for medical practices, hospitals, and health tech startups.',
+      description: 'EDC data platform for a UK university, deployed in Bangladesh hospitals.',
       projects: '50+ Projects'
     },
     {
       name: 'E-commerce',
-      description: 'Scalable online stores and marketplace platforms with advanced features.',
+      description: 'Shopify site for Sri Lanka’s leading t-shirt brand.',
       projects: '75+ Projects'
     },
     {
@@ -54,12 +53,12 @@ const Expertise = () => {
     },
     {
       name: 'Education',
-      description: 'Learning management systems, educational apps, and e-learning platforms.',
+      description: 'Moodle-integrated LMS for a UK academy.',
       projects: '60+ Projects'
     },
     {
-      name: 'Real Estate',
-      description: 'Property management systems, listing platforms, and virtual tour applications.',
+      name: 'Logistics',
+      description: 'Delivery platform used by a UK-based logistics company.',
       projects: '35+ Projects'
     },
     {
@@ -99,7 +98,7 @@ const Expertise = () => {
       <section className="py-16 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold text-gray-900 mb-4">Technical Skills</h2>
+            <h2 className="text-3xl font-bold text-gray-900 mb-4">Technology Stack</h2>
             <p className="text-gray-600 max-w-2xl mx-auto">
               Our team masters the latest technologies and frameworks to build robust, scalable solutions.
             </p>
@@ -223,7 +222,7 @@ const Expertise = () => {
             to="/contact"
             className="bg-white text-yellow-600 px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors duration-200 inline-block"
           >
-            Start Your Project
+            Request a quote
           </Link>
         </div>
       </section>

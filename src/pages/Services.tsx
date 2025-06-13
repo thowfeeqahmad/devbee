@@ -1,6 +1,6 @@
 import React from 'react';
-import { Code, Smartphone, Brain, Cloud, Database, Shield, Zap, Users } from 'lucide-react';
-]import { Link } from 'react-router-dom';
+import { Code, Smartphone,  Cloud,  Shield, Zap,  Layout, Server, Package } from 'lucide-react';
+import { Link } from 'react-router-dom';
 
 const Services = () => {
   const services = [
@@ -17,21 +17,21 @@ const Services = () => {
       features: ['Native iOS & Android', 'Cross-platform Solutions', 'App Store Optimization', 'Push Notifications']
     },
     {
-      icon: <Brain className="w-12 h-12 text-yellow-600" />,
-      title: 'AI & Machine Learning',
-      description: 'Intelligent solutions that automate processes and provide valuable insights. We implement AI technologies to give your business a competitive edge.',
+      icon: <Layout className="w-12 h-12 text-yellow-600" />,
+      title: 'CMS Solutions',
+      description: 'From Shopify storefronts to custom-built CMS using React, Node, or .NET —we offer flexible, user-friendly content systems.',
       features: ['Predictive Analytics', 'Natural Language Processing', 'Computer Vision', 'Automation Solutions']
     },
     {
-      icon: <Cloud className="w-12 h-12 text-yellow-600" />,
-      title: 'Cloud Services',
-      description: 'Scalable cloud infrastructure and migration services. We help you leverage the power of cloud computing for better performance and cost efficiency.',
-      features: ['Cloud Migration', 'Infrastructure Setup', 'DevOps Implementation', 'Monitoring & Maintenance']
+      icon: <Server className="w-12 h-12 text-yellow-600" />,
+      title: 'Service-Based Solutions End-to-end digital systems',
+      description: 'End-to-end digital systems:',
+      features: ['ERP', 'CRM', 'Academic Management Systems', 'Invoice & Billing Software']
     },
     {
-      icon: <Database className="w-12 h-12 text-yellow-600" />,
-      title: 'Database Solutions',
-      description: 'Robust database design and optimization services. We ensure your data is secure, accessible, and performs at scale.',
+      icon: <Cloud className="w-12 h-12 text-yellow-600" />,
+      title: 'SaaS Development',
+      description: 'We specialize in SaaS platforms, including our flagship ZATCA-compliant eFatoora solution used by enterprise clients.',
       features: ['Database Design', 'Performance Tuning', 'Data Migration', 'Backup & Recovery']
     },
     {
@@ -47,9 +47,9 @@ const Services = () => {
       features: ['RESTful APIs', 'GraphQL Implementation', 'API Documentation', 'Rate Limiting & Security']
     },
     {
-      icon: <Users className="w-12 h-12 text-yellow-600" />,
-      title: 'Consulting Services',
-      description: 'Strategic technology consulting to help you make informed decisions. Our experts guide you through digital transformation.',
+      icon: <Package className="w-12 h-12 text-yellow-600" />,
+      title: 'Product Development',
+      description: 'Got a vision? We can build it. (*Some product work is confidential due to NDAs.*) ',
       features: ['Technology Strategy', 'Architecture Review', 'Code Audits', 'Team Training']
     }
   ];
@@ -98,12 +98,12 @@ const Services = () => {
       <section className="py-16 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold text-gray-900 mb-4">Our Development Process</h2>
-            <p className="text-gray-600 max-w-2xl mx-auto">
+            <h2 className="text-3xl font-bold text-gray-900 mb-5">Our Development Process</h2>
+            <p className="text-gray-600 max-w-2xl mx-auto mb-8">
               We follow a proven methodology to ensure your project is delivered on time, within budget, and exceeds expectations.
             </p>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-4 gap-8 gap-y-18">
             <div className="text-center">
               <div className="bg-yellow-600 text-white w-12 h-12 rounded-full flex items-center justify-center mx-auto mb-4 text-xl font-bold">
                 1
@@ -122,22 +122,46 @@ const Services = () => {
               <div className="bg-yellow-600 text-white w-12 h-12 rounded-full flex items-center justify-center mx-auto mb-4 text-xl font-bold">
                 3
               </div>
+              <h3 className="text-xl font-semibold text-gray-900 mb-3">Design</h3>
+              <p className="text-gray-600">Our designers craft intuitive and engaging user experiences for your product.</p>
+            </div>
+            <div className="text-center">
+              <div className="bg-yellow-600 text-white w-12 h-12 rounded-full flex items-center justify-center mx-auto mb-5 text-xl font-bold">
+                4
+              </div>
+              <div></div>
               <h3 className="text-xl font-semibold text-gray-900 mb-3">Development</h3>
               <p className="text-gray-600">Our team builds your solution using agile methodologies and best practices.</p>
             </div>
+          </div>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 gap-y-16 mt-20">
             <div className="text-center">
               <div className="bg-yellow-600 text-white w-12 h-12 rounded-full flex items-center justify-center mx-auto mb-4 text-xl font-bold">
-                4
+                5
+              </div>
+              <h3 className="text-xl font-semibold text-gray-900 mb-3">Testing</h3>
+              <p className="text-gray-600">We rigorously test your product to ensure quality, security, and performance.</p>
+            </div>
+            <div className="text-center">
+              <div className="bg-yellow-600 text-white w-12 h-12 rounded-full flex items-center justify-center mx-auto mb-4 text-xl font-bold">
+                6
               </div>
               <h3 className="text-xl font-semibold text-gray-900 mb-3">Delivery</h3>
               <p className="text-gray-600">We deploy your solution and provide ongoing support and maintenance.</p>
+            </div>
+            <div className="text-center">
+              <div className="bg-yellow-600 text-white w-12 h-12 rounded-full flex items-center justify-center mx-auto mb-4 text-xl font-bold">
+                7
+              </div>
+              <h3 className="text-xl font-semibold text-gray-900 mb-3">Support</h3>
+              <p className="text-gray-600">We offer continuous support and updates to ensure your solution remains effective and up-to-date.</p>
             </div>
           </div>
         </div>
       </section>
 
       {/* CTA Section */}
-      <section className="py-16 bg-yellow-600">
+      <section className="py-16 bg-yellow-600 " >
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl font-bold text-white mb-4">
             Ready to Start Your Project?
@@ -149,7 +173,7 @@ const Services = () => {
             to="/contact"
             className="bg-white text-yellow-600 px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors duration-200 inline-block"
           >
-            Get a Free Consultation
+            Book a free consultation
           </Link>
         </div>
       </section>

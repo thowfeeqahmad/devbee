@@ -26,27 +26,6 @@ const Home = () => {
     }
   ];
 
-  const testimonials = [
-    {
-      name: 'Sarah Johnson',
-      company: 'TechStart Inc.',
-      text: 'DevBee transformed our vision into a stunning web application. Their expertise and attention to detail exceeded our expectations.',
-      rating: 5
-    },
-    {
-      name: 'Michael Chen',
-      company: 'Digital Innovations',
-      text: 'Working with DevBee was a game-changer for our business. They delivered a robust mobile app that our customers love.',
-      rating: 5
-    },
-    {
-      name: 'Emily Rodriguez',
-      company: 'Future Systems',
-      text: 'The AI solution DevBee built for us automated 80% of our manual processes. Incredible results and professional service.',
-      rating: 5
-    }
-  ];
-
   return (
     <div>
       {/* Hero Section */}
@@ -54,19 +33,18 @@ const Home = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
             <h1 className="text-4xl md:text-6xl font-bold text-gray-900 mb-6">
-              Innovative Software
-              <span className="text-yellow-600"> Solutions</span>
+             Welcome to
+              <span className="text-yellow-600"> Devbee inc.</span>
             </h1>
-            <p className="text-xl text-gray-600 mb-8 max-w-3xl mx-auto">
-              We transform your ideas into powerful digital experiences. From web applications to AI solutions, 
-              DevBee delivers cutting-edge software that drives business growth.
+            <p className="text-xl text-gray-600 mb-8 max-w-3xl mx-auto ">
+             Dream to Reality on Any Platform –Built by Bees Who Mean Business.At DevBee Inc., we don’t just build software —we craft digital solutions that power businesses, inspire users, and scale with confidence. Whether you're a startup or an enterprise, our team is here to bring your vision to life.
             </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <div className="flex flex-col sm:flex-row gap-7 justify-center">
               <Link
                 to="/contact"
                 className="bg-yellow-600 text-white px-8 py-3 rounded-lg font-semibold hover:bg-yellow-700 transition-colors duration-200 flex items-center justify-center"
               >
-                Get Started
+               Let’s build your product together
                 <ArrowRight className="ml-2 w-5 h-5" />
               </Link>
               <Link
@@ -158,30 +136,31 @@ const Home = () => {
         </div>
       </section>
 
-      {/* Testimonials Section */}
+      {/* Notable Clients & Projects Section */}
       <section className="py-16 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold text-gray-900 mb-4">What Our Clients Say</h2>
+            <h2 className="text-3xl font-bold text-gray-900 mb-4">Notable Clients & Projects</h2>
             <p className="text-gray-600 max-w-2xl mx-auto">
-              Don't just take our word for it. Here's what our satisfied clients have to say about working with DevBee.
+              We are proud to have worked with industry leaders and innovative startups.
             </p>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            {testimonials.map((testimonial, index) => (
-              <div key={index} className="bg-yellow-50 p-6 rounded-lg">
-                <div className="flex mb-4">
-                  {[...Array(testimonial.rating)].map((_, i) => (
-                    <Star key={i} className="w-5 h-5 text-yellow-400 fill-current" />
-                  ))}
-                </div>
-                <p className="text-gray-700 mb-4 italic">"{testimonial.text}"</p>
-                <div>
-                  <div className="font-semibold text-gray-900">{testimonial.name}</div>
-                  <div className="text-gray-600 text-sm">{testimonial.company}</div>
-                </div>
-              </div>
-            ))}
+          <div className="marquee-container py-4">
+            <div className="marquee-track">
+              {/* Marquee logos - duplicate for seamless loop */}
+              {[...Array(2)].map((_, i) => (
+                <React.Fragment key={i}>
+                  
+                  <img src="STREET-82.jpg" alt="IBM" className="marquee-logo" />
+                  <img src="islm.png" alt="Google" className="marquee-logo" />
+                  <img src="natually.avif" alt="Netflix" className="marquee-logo" />
+                  <img src="lck-logo-1.webp" alt="Spotify" className="marquee-logo" />
+                  <img src="aamer.png" alt="WhatsApp" className="marquee-logo" />
+                  <img src="STREET-82.jpg" alt="Facebook" className="marquee-logo" />
+                  
+                </React.Fragment>
+              ))}
+            </div>
           </div>
         </div>
       </section>
@@ -199,7 +178,7 @@ const Home = () => {
             to="/contact"
             className="bg-white text-yellow-600 px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors duration-200 inline-flex items-center"
           >
-            Start Your Project
+            Talk to our experts
             <ArrowRight className="ml-2 w-5 h-5" />
           </Link>
         </div>

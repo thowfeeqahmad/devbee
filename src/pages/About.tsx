@@ -4,38 +4,38 @@ import { Users, Target, Eye, Award, CheckCircle } from 'lucide-react';
 const About = () => {
   const team = [
     {
-      name: 'Thowfeeq Ahmad',
+      name: 'Abuthair Mohammed Rafiq',
       role: 'CEO & Founder',
-      image: '/devbee/pfp.jpg',
+      image: '/devbee/abpfp.png',
       description: 'Visionary leader with 15+ years in software development and business strategy.'
     },
     {
-      name: 'Muhammad Adnan',
-      role: 'CTO',
-      image: '/devbee/apfp.jpg',
+      name: 'Fasil Marshooq',
+      role: 'Co-Founder & COO',
+      image: '/devbee/fasil.webp',
       description: 'Technical expert specializing in AI, cloud architecture, and scalable systems.'
     },
     {
-      name: 'Cody Selvan',
+      name: 'Musthak Ahamed',
       role: 'Lead Developer',
-      image: '/devbee/cpfp.png',
+      image: '/devbee/mus.png',
       description: 'Full-stack developer with expertise in modern web and mobile technologies.'
     },
     {
-      name: 'Abuthahir',
+      name: 'Thowfeeq ahmad',
       role: 'UX/UI Designer',
-      image: '/devbee/abpfp.png',
+      image: '/devbee/pfp.jpg',
       description: 'Creative designer focused on user-centered design and digital experiences.'
     }
   ];
 
   const whyChooseUs = [
-    'Expert team with proven track record',
-    'Cutting-edge technology solutions',
-    'Agile development methodology',
+    'Customer-first, always.',
+    'End-to-end support —from idea to deployment and beyond.',
+    'Built with precision, quality, and practical thinking.',
     'Transparent communication',
     '24/7 support and maintenance',
-    'Competitive pricing',
+    'Powered by strategic insight, not buzzwords.',
     'On-time project delivery',
     'Scalable and secure solutions'
   ];
@@ -64,9 +64,7 @@ const About = () => {
             <div>
               <h2 className="text-3xl font-bold text-gray-900 mb-6">Our Story</h2>
               <p className="text-gray-600 mb-6">
-                Founded in 2014, DevBee Inc. began as a small startup with a big vision: to democratize 
-                access to high-quality software development services. What started as a two-person team 
-                working out of a garage has grown into a thriving company serving clients worldwide.
+                Founded in 2020 by Abuthair Mohammed Rafiq and Fasil Marshooq, DevBee Inc. is a customer-centric software firm headquartered in India, with expansion plans underway for the Middle East.
               </p>
               <p className="text-gray-600 mb-6">
                 Our journey has been marked by continuous learning, adaptation, and an unwavering commitment 
@@ -99,8 +97,7 @@ const About = () => {
               </div>
               <h3 className="text-2xl font-bold text-gray-900 mb-4">Our Mission</h3>
               <p className="text-gray-600">
-                To empower businesses with innovative software solutions that drive growth, 
-                efficiency, and competitive advantage in the digital marketplace.
+               Create apps that touch people’s lives.We believe in transparency, practicality, and meaningful technology —every line of code we write solves a real problem.
               </p>
             </div>
             <div className="text-center">
