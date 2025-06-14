@@ -12,7 +12,7 @@ const Privacy = () => {
               <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
                 Privacy <span className="text-yellow-600">Policy</span>
               </h1>
-              <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+              <p className="text-xl text-gray-700 max-w-3xl mx-auto">
                 Your privacy is important to us. This policy explains how we collect, use, and protect your information.
               </p>
             </div>
@@ -21,11 +21,11 @@ const Privacy = () => {
       </ScrollFadeIn>
       <ScrollFadeIn>
         {/* Privacy Content */}
-        <section className="py-16 bg-white">
+        <section className="py-16">
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="prose prose-lg max-w-none">
+            <div className="prose prose-lg max-w-none text-gray-800">
               <p className="text-gray-600 mb-8">
-                <strong>Last updated:</strong> January 1, 2024
+                <strong>Last updated:</strong> January 1, 2025
               </p>
 
               <div className="space-y-8">
@@ -167,12 +167,13 @@ const Privacy = () => {
                   <div className="bg-yellow-50 p-4 rounded-lg">
                     <p className="text-gray-700">
                       <strong>DevBee Inc.</strong><br />
-                      123 Tech Street<br />
-                      Silicon Valley, CA 94000<br />
-                      Email: privacy@devbee.com<br />
-                      Phone: +1 (555) 123-4567
+                      29A RS PLAZA<br />
+                     Kuniamuthur, Coimbatore -  641008<br />
+                      Email: support@dev-bee.com<br />
+                      Phone: +91 90030 95635
                     </p>
-                  </div>
+                  </div>DevBee Inc. ,
+ 
                 </div>
               </div>
             </div>
