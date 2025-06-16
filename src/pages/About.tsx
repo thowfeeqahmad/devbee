@@ -24,8 +24,8 @@ const About = () => {
     },
     {
       name: 'Thowfeeq ahmad',
-      role: 'UX/UI Designer',
-      image: '/devbee/pfp.jpg',
+      role: 'UI/UX Designer',
+      image: '/devbee/pfp.webp',
       description: 'Creative designer focused on user-centered design and digital experiences.'
     }
   ];
